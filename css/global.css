@@ -1,0 +1,46 @@
+/*https://en.bem.info/methodology/quick-start/*/
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Barlow', sans-serif;
+    padding: 1.5rem;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/******titles && texts*****/
+.title_xxl{
+    font-family: 'Fraunces', serif;
+    font-size: 150px;
+    line-height: 72px;
+}
+
+.title_xl{
+    font-family: 'Fraunces', serif;
+    font-size: 72px;
+    line-height: 72px;
+}
+
+.title_l{
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.title_m{
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.title_s{
+    font-family: 'Fraunces', serif;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.text_s{
+    font-family: 'Barlow', sans-serif;
+}
