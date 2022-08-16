@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img{
+height: 1.3rem;
+}
+
+.header__nav img{
+    height: 1rem;
+}
+
+.header__nav__ul{
+    display: none;
+}
+
