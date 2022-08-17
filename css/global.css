@@ -43,4 +43,31 @@ body{
 
 .text_s{
     font-family: 'Barlow', sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.text_m{
+    font-size: 0.93rem;
+    line-height: 26px;
+}
+
+/******buttons*****/
+
+.button_green{
+    font-family: 'Fraunces', serif;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    background-color: rgb(14,135,132);
+    color: #FFFFFF;
+    border-radius: .3rem;
+    border: none;
+}
+
+.button_green:hover{
+    background-color: rgb(101, 210, 207);
+}
+
+.button_disable{
+    color: rgb(226, 222, 219)
 }
