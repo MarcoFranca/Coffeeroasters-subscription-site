@@ -1,0 +1,91 @@
+/*https://en.bem.info/methodology/quick-start/*/
+a{
+    text-decoration: none;
+}
+
+:root{
+    /****colors****/
+
+    --color--dark-cyan: rgb(14,135,132);
+    --color--dark-grey-blue: rgb(51,61,75);
+    --color--pale-orange: rgb(253,214,186);
+    --color--light-cream: rgb(254,252,247);
+    --color--grey: rgb(131,136,143);
+
+    /*****font-family****/
+
+    --font--fraunces--serif: 'Fraunces', serif;
+    --font--barlow--sans-serif: 'Barlow', sans-serif;
+}
+
+
+body{
+    font-family: var(--font--barlow--sans-serif);
+    background-color: var(--color--light-cream);
+    padding: 1.5rem;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/******titles && texts*****/
+
+.title_xxl{
+    font-family: var(--font--fraunces--serif);
+    font-size: 150px;
+    line-height: 72px;
+}
+
+.title_xl{
+    font-family: var(--font--fraunces--serif);
+    font-size: 72px;
+    line-height: 72px;
+}
+
+.title_l{
+    font-family: var(--font--fraunces--serif);
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.title_m{
+    font-family: var(--font--fraunces--serif);
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.title_s{
+    font-family: var(--font--fraunces--serif);
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.text_s{
+    font-family: var(--font--barlow--sans-serif);
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.text_m{
+    font-size: 0.93rem;
+    line-height: 26px;
+}
+
+/******buttons*****/
+
+.button_green{
+    font-family: var(--font--fraunces--serif);
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    background-color: var(--color--dark-cyan);
+    color: #FEFCF7;
+    border-radius: .3rem;
+    border: none;
+}
+
+.button_green:hover{
+    background-color: rgb(101, 210, 207);
+}
+
+.button_disable{
+    color: rgb(226, 222, 219)
+}
