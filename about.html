@@ -4,61 +4,113 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/global.css">
+  <link rel="stylesheet" href="./assets/css/header.css">
+  <link rel="stylesheet" href="./assets/css/footer.css">
+  <link rel="stylesheet" href="./assets/css/about/about.css">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Fraunces:opsz,wght@9..144,900&display=swap" rel="stylesheet">
 
-  <title>Frontend Mentor | Coffeeroasters subscription site</title>
+  <title>Coffeeroasters subscription site</title>
 </head>
 
 <body>
-  Home
-  About us
-  Create your plan
+<header class="header">
+  <h1 class="header__image">
+    <img src="assets/images/shared/desktop/logo.svg" alt="coffeeroasters company logo" title="coffeeroasters company logo">
+  </h1>
+  <nav class="header__nav">
+    <img src="assets/images/shared/mobile/icon-hamburger.svg" alt="main menu | hamburger icon">
+    <ul class="header__nav__ul">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./about.html">About us</a></li>
+      <li><a href="./plan.html">Create your plan</a></li>
+    </ul>
+  </nav>
+</header>
 
-  About us
-  Coffeeroasters began its journey of exotic discovery in 1999, highlighting stories of 
-  coffee from around the world. We have since been dedicated to bring the perfect cup - from 
-  bean to brew - in every shipment.
-  
-  Our commitment
-  We’re built on a simple mission and a commitment to doing good along the way. We want to 
-  make it easy for you to discover and brew the world’s best coffee at home. It all starts 
-  at the source. To locate the specific lots we want to purchase, we travel nearly 60 days 
-  a year trying to understand the challenges and opportunities in each of these places.
-  We collaborate with exceptional coffee growers and empower a global community of farmers 
-  through with well above fair-trade benchmarks. We also offer training, support farm community 
-  initiatives, and invest in coffee plant science. Curating only the finest blends, we roast 
-  each lot to highlight tasting profiles distinctive to their native growing region.
-  
-  Uncompromising quality
-  Although we work with growers who pay close attention to all stages of harvest and processing, 
-  we employ, on our end, a rigorous quality control program to avoid over-roasting or baking the 
-  coffee dry. Every bag of coffee is tagged with a roast date and batch number. Our goal is to roast 
-  consistent, user-friendly coffee, so that brewing is easy and enjoyable.
+<main>
+  <section class="about">
+    <div class="about__card card" role="img" aria-label="top view photo of a rustic wooden table with a part of a white teapot on the right of the image with a white cup filled with cappuccino sprinkled with cocoa powder on top of both">
+      <h2 class="title_m">About us</h2>
+      <p class="about__card__text text_m">Coffeeroasters began its journey of exotic discovery in 1999, highlighting stories of coffee from around the
+        world. We have since been dedicated to bring the perfect cup - from bean to brew - in every shipment.</p>
+    </div>
+  </section>
 
-  Our headquarters
+  <section>
+    <h2>Our commitment</h2>
+    <p>We’re built on a simple mission and a commitment to doing good along the way. We want to
+      make it easy for you to discover and brew the world’s best coffee at home. It all starts
+      at the source. To locate the specific lots we want to purchase, we travel nearly 60 days
+      a year trying to understand the challenges and opportunities in each of these places.
+      We collaborate with exceptional coffee growers and empower a global community of farmers
+      through with well above fair-trade benchmarks. We also offer training, support farm community
+      initiatives, and invest in coffee plant science. Curating only the finest blends, we roast
+      each lot to highlight tasting profiles distinctive to their native growing region.</p>
+  </section>
 
-  United Kingdom
-  68 Asfordby Rd
-  Alcaston
-  SY6 1YA
-  +44 1241 918425
+  <section>
+    <h2>Uncompromising quality</h2>
+    <p>Although we work with growers who pay close attention to all stages of harvest and processing,
+      we employ, on our end, a rigorous quality control program to avoid over-roasting or baking the
+      coffee dry. Every bag of coffee is tagged with a roast date and batch number. Our goal is to roast
+      consistent, user-friendly coffee, so that brewing is easy and enjoyable.</p>
+  </section>
 
-  Canada
-  1528 Eglinton Avenue
-  Toronto
-  Ontario M4P 1A6
-  +1 416 485 2997
+  <section>
+    <h2>Our headquarters</h2>
 
-  Australia
-  36 Swanston Street
-  Kewell
-  Victoria
-  +61 4 9928 3629
+    <h3>United Kingdom</h3>
 
-  Home
-  About us
-  Create your plan
+    <ul>
+      <li>68 Asfordby Rd</li>
+      <li>Alcaston</li>
+      <li>SY6 1YA</li>
+      <li>+44 1241 918425</li>
+    </ul>
+
+    <h3>Canada</h3>
+
+    <ul>
+      <li>1528 Eglinton Avenue</li>
+      <li>Toronto</li>
+      <li>Ontario M4P 1A6</li>
+      <li>+1 416 485 2997</li>
+    </ul>
+
+    <h3>Australia</h3>
+
+    <ul>
+      <li>36 Swanston Street</li>
+      <li>Kewell</li>
+      <li>Victoria</li>
+      <li>+61 4 9928 3629</li>
+    </ul>
+
+  </section>
+</main>
+<footer class="footer">
+  <div class="footer__card">
+    <img class="footer__img" src="assets/images/shared/desktop/logowhite.svg" alt="logo of cofferoasters">
+    <nav>
+      <ul class="footer__nav ">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About us</a></li>
+        <li><a href="./plan.html">Create your plan</a></li>
+      </ul>
+    </nav>
+    <div class="footer__media">
+      <a href="#"><img src="assets/images/shared/desktop/icon-facebook.svg" alt="facebook logo"></a>
+      <a href="#"><img src="assets/images/shared/desktop/icon-twitter.svg" alt="twitter logo"></a>
+      <a href="#"><img src="assets/images/shared/desktop/icon-instagram.svg" alt="instagram logo"></a>
+    </div>
+  </div>
+</footer>
 </body>
 
 </html>
