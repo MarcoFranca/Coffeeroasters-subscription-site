@@ -1,0 +1,22 @@
+.commitment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--color--dark-grey-blue);
+    text-align: center;
+}
+
+.commitment__img{
+    background-image: url("../../images/about/mobile/image-commitment.jpg");
+    height: 27rem;
+    margin: 5rem 0 3rem 0;
+}
+
+.commitment__title{
+    margin-bottom: 2rem;
+}
+
+.commitment__text{
+    width: 20rem;
+}
