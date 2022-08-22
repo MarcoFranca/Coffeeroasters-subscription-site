@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="assets/css/home/header.css">
   <link rel="stylesheet" href="assets/css/home/plan.css">
   <link rel="stylesheet" href="assets/css/home/collection.css">
+  <link rel="stylesheet" href="assets/css/home/about.css">
+  <link rel="stylesheet" href="assets/css/home/howitworks.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,102 +31,104 @@
   </nav>
 </header>
 <main>
-<section class="plan">
-  <div class="plan__card">
-    <h2 class="title_l plan__card__title">Great coffee made simple.</h2>
+  <section class="plan">
+    <div class="plan__card">
+      <h2 class="title_l plan__card__title">Great coffee made simple.</h2>
 
-    <p class="plan__card__text text_m">Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees from our best roasters
-      delivered directly to your door, at your schedule.</p>
+      <p class="plan__card__text text_m">Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees from our best roasters
+        delivered directly to your door, at your schedule.</p>
 
-    <button class="button_green">Create your plan</button>
-  </div>
-</section>
+      <button class="button_green">Create your plan</button>
+    </div>
+  </section>
   <section class="collection">
     <h3 class="collection__title title_l">Our collection</h3>
 
-    <div>
+    <div class="collection__card">
       <img src="assets/images/home/desktop/image-gran-espresso.png" alt="image with a package of gran espresso coffee">
-      <h4>Gran Espresso</h4>
-      <p>Light and flavorful blend with cocoa and black pepper for an intense experience</p>
+      <h4 class="collection__card__title title_s">Gran Espresso</h4>
+      <p class="collection__card__text text_m">Light and flavorful blend with cocoa and black pepper for an intense experience</p>
     </div>
 
-    <div>
-      <img src="assets/images/home/desktop/image-planalto.png" alt="image with a package of planalto coffee">
-      <h4>Planalto</h4>
-      <p>Brazilian dark roast with rich and velvety body, and hints of fruits and nuts</p>
+    <div class="collection__card">
+      <img class="collection__card__img" src="assets/images/home/desktop/image-planalto.png" alt="image with a package of planalto coffee">
+      <h4 class="collection__card__title title_s">Planalto</h4>
+      <p class="collection__card__text text_m">Brazilian dark roast with rich and velvety body, and hints of fruits and nuts</p>
     </div>
 
-    <div>
+    <div class="collection__card">
       <img src="assets/images/home/desktop/image-piccollo.png" alt="image with a package of piccollo coffee">
-      <h4>Piccollo</h4>
-      <p>Mild and smooth blend featuring notes of toasted almond and dried cherry</p>
+      <h4 class="collection__card__title title_s">Piccollo</h4>
+      <p class="collection__card__text text_m">Mild and smooth blend featuring notes of toasted almond and dried cherry</p>
     </div>
 
-    <div>
+    <div class="collection__card">
       <img src="assets/images/home/desktop/image-danche.png" alt="image with a package of danche coffee">
-      <h4>Danche</h4>
-      <p>Ethiopian hand-harvested blend densely packed with vibrant fruit notes</p>
+      <h4 class="collection__card__title title_s">Danche</h4>
+      <p class="collection__card__text text_m">Ethiopian hand-harvested blend densely packed with vibrant fruit notes</p>
     </div>
 
   </section>
 
-  <section>
+  <section class="about">
 
-    <div>
-      <h2>Why choose us?</h2>
+    <div class="about__why">
+      <h2 class="about__why__title title_m">Why choose us?</h2>
 
-      <p>A large part of our role is choosing which particular coffees will be featured in our range. This means working
+      <p class="about__why__text text_m">A large part of our role is choosing which particular coffees will be featured in our range. This means working
         closely with the best coffee growers to give you a more impactful experience on every level.</p>
     </div>
-    <div>
-      <img src="assets/images/home/desktop/icon-coffee-bean.svg" alt="coffee bean icon">
-      <h3>Best quality</h3>
-      <p>Discover an endless variety of the world’s best artisan coffee from each of our roasters.</p>
-    </div>
-    <div>
-      <img src="assets/images/home/desktop/icon-gift.svg" alt="gift icon">
-      <h3>Exclusive benefits</h3>
-      <p>Special offers and swag when you subscribe, including 30% off your first shipment.</p>
-    </div>
-    <div>
-      <img src="assets/images/home/desktop/icon-truck.svg" alt="truck icon">
-      <h3>Free shipping</h3>
-      <p>We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.</p>
+    <div class="about__cards">
+      <div class="about__card">
+        <img src="assets/images/home/desktop/icon-coffee-bean.svg" alt="coffee bean icon">
+        <h3 class="about__card__titel title_s">Best quality</h3>
+        <p class="about__card__text text_m">Discover an endless variety of the world’s best artisan coffee from each of our roasters.</p>
+      </div>
+      <div class="about__card">
+        <img src="assets/images/home/desktop/icon-gift.svg" alt="gift icon">
+        <h3 class="about__card__titel title_s">Exclusive benefits</h3>
+        <p class="about__card__text text_m">Special offers and swag when you subscribe, including 30% off your first shipment.</p>
+      </div>
+      <div class="about__card">
+        <img src="assets/images/home/desktop/icon-truck.svg" alt="truck icon">
+        <h3 class="about__card__titel title_s">Free shipping</h3>
+        <p class="about__card__text text_m">We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.</p>
+      </div>
     </div>
   </section>
 
-  <section>
-    <h2>How it works</h2>
-    <div>
-      <h3>01</h3>
-      <h4>Pick your coffee</h4>
-      <p>Select from our evolving range of artisan coffees. Our beans are ethically sourced, and we pay fair prices for
+  <section class="how-it-works">
+    <h2 class="how-it-works__title title_s">How it works</h2>
+    <div class="how-it-works__card">
+      <h3 class="how-it-works__card__number title_xl">01</h3>
+      <h4 class="how-it-works__card__title title_s">Pick your coffee</h4>
+      <p class="how-it-works__card__text text_m">Select from our evolving range of artisan coffees. Our beans are ethically sourced, and we pay fair prices for
         them. There are new coffees in all profiles every month for you to try out.</p>
     </div>
-    <div>
-      <h3>02</h3>
-      <h4>Choose the frequency</h4>
-      <p>Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel your
+    <div class="how-it-works__card">
+      <h3 class="how-it-works__card__number title_xl">02</h3>
+      <h4 class="how-it-works__card__title title_s">Choose the frequency</h4>
+      <p class="how-it-works__card__text text_m">Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel your
         subscription with no commitment through our online portal.</p>
     </div>
-    <div>
-      <h3>03</h3>
-      <h4>Receive and enjoy!</h4>
-      <p>We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees
+    <div class="how-it-works__card">
+      <h3 class="how-it-works__card__number title_xl">03</h3>
+      <h4 class="how-it-works__card__title title_s">Receive and enjoy!</h4>
+      <p class="how-it-works__card__text text_m">We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees
         curated to provide a distinct tasting experience.</p>
     </div>
 
-    <button>Create your plan</button>
+    <button class="how-it-works__button button_green">Create your plan</button>
   </section>
 </main>
 <footer>
   <img src="assets/images/shared/desktop/logo.svg" alt="main menu | hamburger icon">
   <nav>
-  <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">About us</a></li>
-    <li><a href="#">Create your plan</a></li>
-  </ul>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About us</a></li>
+      <li><a href="#">Create your plan</a></li>
+    </ul>
   </nav>
   <a href="#"><img src="assets/images/shared/desktop/icon-facebook.svg" alt="facebook logo"></a>
   <a href="#"><img src="assets/images/shared/desktop/icon-twitter.svg" alt="twitter logo"></a>
