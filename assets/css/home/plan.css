@@ -6,17 +6,7 @@
 }
 
 .plan__card{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     background-image: url("../../images/home/mobile/image-hero-coffeepress.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    gap: 2rem;
-    border-radius: .5rem;
-    width: 21.875rem;
     height: 32rem;
 }
 
