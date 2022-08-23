@@ -1,0 +1,38 @@
+.steps{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.steps__card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--color--dark-blue);
+    width: 100vw;
+    margin: 6rem 0;
+    padding-bottom: 3rem;
+    border-radius: 0.6rem;
+}
+
+.steps__card__number{
+    color: var(--color--pale-orange);
+}
+
+.steps__card__title{
+    color: var(--color--light-cream);
+    margin: 2rem 0;
+}
+
+.steps__card__text{
+    color: rgba(254, 252, 247, 0.7);
+    margin-bottom: 2rem;
+    width: 19.73rem;
+}
+
+.steps__option{
+    display: none;
+}
