@@ -106,3 +106,13 @@ body{
     width: 20rem;
 
 }
+
+/*****modal | order cards ********/
+
+.order{
+    display: none;
+}
+
+.modal{
+    display: none;
+}
