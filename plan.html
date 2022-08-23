@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="./assets/css/footer.css">
   <link rel="stylesheet" href="./assets/css/plan/plan.css">
   <link rel="stylesheet" href="./assets/css/plan/steps.css">
-  <link rel="stylesheet" href="./assets/css/plan/choose.css">
+  <link rel="stylesheet" href="./assets/css/plan/accordion.css">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,7 +40,7 @@
   <section class="plan">
     <div class="plan__card card">
       <h2 class="plan__title title_l">Create a plan</h2>
-      <p class="plan__text text_m">Build a subscription plan that best fits your needs. We offer an assortment of the best artisan coffees from around
+      <p class="plan__text text_s">Build a subscription plan that best fits your needs. We offer an assortment of the best artisan coffees from around
         the globe delivered fresh to your door.</p>
     </div>
   </section>
@@ -48,20 +48,20 @@
     <div class="steps__card">
       <p class="steps__card__number title_xl">01</p>
       <h2 class="steps__card__title title_m">Pick your coffee</h2>
-      <p class="steps__card__text text_m">Select from our evolving range of artisan coffees. Our beans are ethically
+      <p class="steps__card__text text_s">Select from our evolving range of artisan coffees. Our beans are ethically
         sourced, and we pay fair prices for them. There's new coffees in all profiles
         every month for you to try out.</p>
 
 
       <p class="steps__card__number title_xl">02</p>
       <h2 class="steps__card__title title_m">Choose the frequency</h2>
-      <p class="steps__card__text text_m">Customize your order frequency, quantity, even your roast style and grind type.
+      <p class="steps__card__text text_s">Customize your order frequency, quantity, even your roast style and grind type.
         Pause, skip or cancel your subscription with no commitment through our online portal.
       </p>
 
       <p class="steps__card__number title_xl">03</p>
       <h2 class="steps__card__title title_m">Receive and enjoy!</h2>
-      <p class="steps__card__text text_m">We ship your package within 48 hours, freshly roasted. Sit back and enjoy
+      <p class="steps__card__text text_s">We ship your package within 48 hours, freshly roasted. Sit back and enjoy
         award-winning world-class coffees curated to provide a distinct tasting experience.
       </p>
     </div>
@@ -75,68 +75,106 @@
       </ul>
     </div>
   </section>
-  <section>
-    How do you drink your coffee?
 
-    Capsule
-    Compatible with Nespresso systems and similar brewers
+  <section id="how" class="choice">
+    <details class="accordion">
+      <summary class="accordion__title">
+        <h2 class="title_s">How do you drink your coffee?</h2> <img src="./assets/images/plan/desktop/icon-arrow.svg" alt="arrow icon"></summary>
+      <button class="accordion__button">
+        <h3 class="title_s">Capsule</h3>
+        <p class="text_s">Compatible with Nespresso systems and similar brewers</p>
 
-    Filter
-    For pour over or drip methods like Aeropress, Chemex, and V60
+        <h3 class="title_s">Filter</h3>
+        <p class="text_s">For pour over or drip methods like Aeropress, Chemex, and V60</p>
 
-    Espresso
-    Dense and finely ground beans for an intense, flavorful experience
+        <h3 class="title_s">Espresso</h3>
+        <p class="text_s">Dense and finely ground beans for an intense, flavorful experience</p>
+      </button>
 
+    </details>
   </section>
-  <section>
-    What type of coffee?
 
-    Single origin
-    Distinct, high quality coffee from a specific family-owned farm
-
-    Decaf
-    Just like regular coffee, except the caffeine has been removed
-
-    Blended
-    Combination of two or three dark roasted beans of organic coffees
+  <section id="type" class="choice">
+    <details class="accordion">
+      <summary class="accordion__title">
+        <h2 class="title_s">What type of coffee?</h2>
+        <img src="./assets/images/plan/desktop/icon-arrow.svg" alt="arrow icon">
+      </summary>
+      <button class="accordion__button">
+        <h3 class="title_s">Single origin</h3>
+        <p class="text_s">Distinct, high quality coffee from a specific family-owned farm</p>
+      </button>
+      <button class="accordion__button">
+        <h3 class="title_m">Decaf</h3>
+        <p class="text_s">Just like regular coffee, except the caffeine has been removed</p>
+      </button>
+      <button class="accordion__button">
+        <h3 class="title_m">Blended</h3>
+        <p class="text_s">Combination of two or three dark roasted beans of organic coffees</p>
+      </button>
+    </details>
   </section>
-  <section>
 
-    How much would you like?
-    250g
-    Perfect for the solo drinker. Yields about 12 delicious cups.
-
-    500g
-    Perfect option for a couple. Yields about 40 delectable cups.
-
-    1000g
-    Perfect for offices and events. Yields about 90 delightful cups.
+  <section id="much" class="choice">
+    <details class="accordion">
+      <summary class="accordion__title">
+        <h2 class="title_s">How much would you like?</h2>
+        <img src="./assets/images/plan/desktop/icon-arrow.svg" alt="arrow icon">
+      </summary>
+      <button class="accordion__button">
+        <h3 class="title_m">250g</h3>
+        <p class="text_s">Perfect for the solo drinker. Yields about 12 delicious cups.</p>
+      </button>
+      <button class="accordion__button">
+        <h3 class="title_m">500g</h3 >
+        <p class="text_s" >Perfect option for a couple. Yields about 40 delectable cups.</p>
+      </button>
+      <button class="accordion__button">
+        <h3 class="title_m">1000g</h3>
+        <p class="text_s">Perfect for offices and events. Yields about 90 delightful cups.</p>
+      </button>
+    </details>
   </section>
-  <section>
-    Want us to grind them?
 
-    Wholebean
-    Best choice if you cherish the full sensory experience
+  <section id="grind" class="choice">
+    <details class="accordion">
+      <summary class="accordion__title">
+        <h2 class="title_s">Want us to grind them?</h2>
+        <img src="./assets/images/plan/desktop/icon-arrow.svg" alt="arrow icon">
+      </summary>
+      <button class="accordion__button">
+        <h3 class="title_s">Wholebean</h3>
+        <p class="text_s">Best choice if you cherish the full sensory experience</p>
 
-    Filter
-    For drip or pour-over coffee methods such as V60 or Aeropress
+        <h3 class="title_m">Filter</h3>
+        <p class="text_s">For drip or pour-over coffee methods such as V60 or Aeropress</p>
 
-    Cafetiére
-    Course ground beans specially suited for French press coffee
+        <h3 class="title_m">Cafetiére</h3>
+        <p class="text_s">Course ground beans specially suited for French press coffee</p>
+      </button>
+    </details>
   </section>
-  <section>
-    How often should we deliver?
-
-    Every week
-    $14.00 per shipment. Includes free first-class shipping.
-
-    Every 2 weeks
-    $17.25 per shipment. Includes free priority shipping.
-
-    Every month
-    $22.50 per shipment. Includes free priority shipping.
+  <section id="how-often" class="choice">
+    <details class="accordion">
+      <summary class="accordion__title">
+        <h2 class="title_s">How often should we deliver?</h2>
+        <img src="./assets/images/plan/desktop/icon-arrow.svg" alt="arrow icon">
+      </summary>
+      <button class="accordion__button">
+        <h3 class="title_m">Every week</h3>
+        <p class="text_s">014.00 per shipment. Includes free first-class shipping.</p>
+      </button>
+      <button class="accordion__button">
+        <h3 class="title_m">Every 2 weeks </h3>
+        <p class="text_s">017.25 per shipment. Includes free priority shipping.</p>
+      </button>
+      <button class="accordion__button">
+        <h3 class="title_m">Every month</h3>
+        <p class="text_s">022.50 per shipment. Includes free priority shipping.</p>
+      </button>
+    </details>
   </section>
-  <section>
+  <section class="order">
     Order Summary
     “I drink coffee _____, with a _____ type of bean. _____ ground ala _____,
     sent to me _____.”
@@ -144,7 +182,7 @@
     Create my plan!
   </section>
   <!-- Modal -->
-  <section>
+  <section class="modal">
     Order Summary
 
     “I drink coffee _____, with a _____ type of bean. _____ ground ala _____,
