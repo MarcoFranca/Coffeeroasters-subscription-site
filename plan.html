@@ -1,120 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/global.css">
+  <link rel="stylesheet" href="./assets/css/header.css">
+  <link rel="stylesheet" href="./assets/css/footer.css">
+  <link rel="stylesheet" href="./assets/css/plan/plan.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Fraunces:opsz,wght@9..144,900&display=swap" rel="stylesheet">
 
   <title>Frontend Mentor | Coffeeroasters subscription site</title>
 </head>
 
 <body>
-  Home
-  About us
-  Create your plan
+<header class="header">
+  <h1 class="header__image">
+    <img src="assets/images/shared/desktop/logo.svg" alt="coffeeroasters company logo" title="coffeeroasters company logo">
+  </h1>
+  <nav class="header__nav">
+    <img src="assets/images/shared/mobile/icon-hamburger.svg" alt="main menu | hamburger icon">
+    <ul class="header__nav__ul">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./about.html">About us</a></li>
+      <li><a href="./plan.html">Create your plan</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <section class="plan">
+    <div class="plan__card card">
+      <h2 class="plan__title title_l">Create a plan</h2>
+      <p class="plan__text text_m">Build a subscription plan that best fits your needs. We offer an assortment of the best artisan coffees from around
+        the globe delivered fresh to your door.</p>
+    </div>
+  </section>
+  <section>
+    01
+    Pick your coffee
+    Select from our evolving range of artisan coffees. Our beans are ethically
+    sourced, and we pay fair prices for them. There's new coffees in all profiles
+    every month for you to try out.
 
-  Create a plan
-  Build a subscription plan that best fits your needs. We offer an assortment of the best 
-  artisan coffees from around the globe delivered fresh to your door.
+    02
+    Choose the frequency
+    Customize your order frequency, quantity, even your roast style and grind type.
+    Pause, skip or cancel your subscription with no commitment through our online portal.
 
-  01
-  Pick your coffee
-  Select from our evolving range of artisan coffees. Our beans are ethically
-  sourced and we pay fair prices for them. There's new coffees in all profiles
-  every month for you to try out.
-  
-  02
-  Choose the frequency
-  Customize your order frequency, quantity, even your roast style and grind type.
-  Pause, skip or cancel your subscription with no commitment through our online portal.
-  
-  03
-  Receive and enjoy!
-  We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning
-  world-class coffees curated to provide a distinct tasting experience.
+    03
+    Receive and enjoy!
+    We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning
+    world-class coffees curated to provide a distinct tasting experience.
 
-  01 Preferences
-  02 Bean type
-  03 Quantity
-  04 Grind option
-  05 Deliveries
+    01 Preferences
+    02 Bean type
+    03 Quantity
+    04 Grind option
+    05 Deliveries
+  </section>
+  <section>
+    How do you drink your coffee?
 
-  How do you drink your coffee?
+    Capsule
+    Compatible with Nespresso systems and similar brewers
 
-  Capsule
-  Compatible with Nespresso systems and similar brewers
+    Filter
+    For pour over or drip methods like Aeropress, Chemex, and V60
 
-  Filter
-  For pour over or drip methods like Aeropress, Chemex, and V60
+    Espresso
+    Dense and finely ground beans for an intense, flavorful experience
 
-  Espresso
-  Dense and finely ground beans for an intense, flavorful experience
+  </section>
+  <section>
+    What type of coffee?
 
-  What type of coffee?
+    Single origin
+    Distinct, high quality coffee from a specific family-owned farm
 
-  Single origin
-  Distinct, high quality coffee from a specific family-owned farm
+    Decaf
+    Just like regular coffee, except the caffeine has been removed
 
-  Decaf
-  Just like regular coffee, except the caffeine has been removed
+    Blended
+    Combination of two or three dark roasted beans of organic coffees
+  </section>
+  <section>
 
-  Blended
-  Combination of two or three dark roasted beans of organic coffees
+    How much would you like?
+    250g
+    Perfect for the solo drinker. Yields about 12 delicious cups.
 
-  How much would you like?
-  250g
-  Perfect for the solo drinker. Yields about 12 delicious cups.
-  
-  500g
-  Perfect option for a couple. Yields about 40 delectable cups.
+    500g
+    Perfect option for a couple. Yields about 40 delectable cups.
 
-  1000g
-  Perfect for offices and events. Yields about 90 delightful cups.
+    1000g
+    Perfect for offices and events. Yields about 90 delightful cups.
+  </section>
+  <section>
+    Want us to grind them?
 
-  Want us to grind them?
+    Wholebean
+    Best choice if you cherish the full sensory experience
 
-  Wholebean
-  Best choice if you cherish the full sensory experience
+    Filter
+    For drip or pour-over coffee methods such as V60 or Aeropress
 
-  Filter
-  For drip or pour-over coffee methods such as V60 or Aeropress
+    Cafetiére
+    Course ground beans specially suited for French press coffee
+  </section>
+  <section>
+    How often should we deliver?
 
-  Cafetiére
-  Course ground beans specially suited for french press coffee
+    Every week
+    $14.00 per shipment. Includes free first-class shipping.
 
-  How often should we deliver?
+    Every 2 weeks
+    $17.25 per shipment. Includes free priority shipping.
 
-  Every week
-  $14.00 per shipment. Includes free first-class shipping.
+    Every month
+    $22.50 per shipment. Includes free priority shipping.
+  </section>
+  <section>
+    Order Summary
+    “I drink coffee _____, with a _____ type of bean. _____ ground ala _____,
+    sent to me _____.”
 
-  Every 2 weeks
-  $17.25 per shipment. Includes free priority shipping.
-
-  Every month
-  $22.50 per shipment. Includes free priority shipping.
-
-  Order Summary
-  “I drink coffee _____, with a _____ type of bean. _____ ground ala _____, 
-  sent to me _____.”
-
-  Create my plan!
-
+    Create my plan!
+  </section>
   <!-- Modal -->
-  Order Summary
+  <section>
+    Order Summary
 
-  “I drink coffee _____, with a _____ type of bean. _____ ground ala _____,
-  sent to me _____.”
+    “I drink coffee _____, with a _____ type of bean. _____ ground ala _____,
+    sent to me _____.”
 
-  Is this correct? You can proceed to checkout or go back to plan selection if something 
-  is off. Subscription discount codes can also be redeemed at the checkout.
+    Is this correct? You can proceed to checkout or go back to plan selection if something
+    is off. Subscription discount codes can also be redeemed at the checkout.
 
-  $_____/month
+    $_____/month
 
-  Checkout
+    Checkout
+  </section>
   <!-- End modal -->
-
-  Home
-  About us
-  Create your plan
+</main>
+<footer class="footer">
+  <div class="footer__card">
+    <img class="footer__img" src="assets/images/shared/desktop/logowhite.svg" alt="logo of cofferoasters">
+    <nav>
+      <ul class="footer__nav ">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About us</a></li>
+        <li><a href="./plan.html">Create your plan</a></li>
+      </ul>
+    </nav>
+    <div class="footer__media">
+      <a href="#"><img src="assets/images/shared/desktop/icon-facebook.svg" alt="facebook logo"></a>
+      <a href="#"><img src="assets/images/shared/desktop/icon-twitter.svg" alt="twitter logo"></a>
+      <a href="#"><img src="assets/images/shared/desktop/icon-instagram.svg" alt="instagram logo"></a>
+    </div>
+  </div>
+</footer>
 </body>
-
 </html>

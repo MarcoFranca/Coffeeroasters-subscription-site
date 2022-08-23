@@ -1,0 +1,25 @@
+.plan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.plan__card{
+    background-image: url("../../images/plan/mobile/image-hero-blackcup.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 24rem;
+    margin-top: 4rem;
+}
+
+.plan__title{
+    color: var(--color--light-cream);
+}
+
+.plan__text{
+    color: rgba(254, 252, 247, 0.7);
+    width: 18rem;
+}
