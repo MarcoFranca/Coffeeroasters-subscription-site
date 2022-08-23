@@ -1,0 +1,28 @@
+.order{
+    /*display: none;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8rem 0;
+    gap: 3rem;
+
+}
+
+.order__card{
+    background-color: var(--color--dark-grey-blue);
+    color: var(--color--light-cream);
+    border-radius: 0.5rem;
+    width: 20rem;
+
+}
+
+.order__card__title{
+    text-transform: uppercase;
+    padding: 1.5rem 0 1rem 1rem;
+}
+
+.order__card__text{
+    padding: 0 0 3rem 1rem;
+    width: 16rem;
+}

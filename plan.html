@@ -13,6 +13,8 @@
   <link rel="stylesheet" href="./assets/css/plan/plan.css">
   <link rel="stylesheet" href="./assets/css/plan/steps.css">
   <link rel="stylesheet" href="./assets/css/plan/accordion.css">
+  <link rel="stylesheet" href="./assets/css/plan/order.css">
+  <link rel="stylesheet" href="./assets/css/plan/modal.css">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -108,11 +110,11 @@
         <p class="text_m">Distinct, high quality coffee from a specific family-owned farm</p>
       </button>
       <button class="accordion__button">
-        <h3 class="title_m">Decaf</h3>
+        <h3 class="title_s">Decaf</h3>
         <p class="text_m">Just like regular coffee, except the caffeine has been removed</p>
       </button>
       <button class="accordion__button">
-        <h3 class="title_m">Blended</h3>
+        <h3 class="title_s">Blended</h3>
         <p class="text_m">Combination of two or three dark roasted beans of organic coffees</p>
       </button>
     </details>
@@ -182,25 +184,32 @@
     </details>
   </section>
   <section class="order">
-    Order Summary
-    “I drink coffee _____, with a _____ type of bean. _____ ground ala _____,
-    sent to me _____.”
-
-    Create my plan!
+    <div class="order__card">
+      <h2 class="order__card__title text_m">Order Summary</h2>
+      <p class="order__card__text title_s">“I drink my coffee as _____, with a _____ type of bean. _____ ground ala _____,
+        sent to me _____.”</p>
+    </div>
+    <button class="button_green">
+      Create my plan!
+    </button>
   </section>
   <!-- Modal -->
   <section class="modal">
-    Order Summary
+    <div class="modal__card">
 
-    “I drink coffee _____, with a _____ type of bean. _____ ground ala _____,
-    sent to me _____.”
+      <h2 class="modal__card__title title_m">Order Summary</h2>
 
-    Is this correct? You can proceed to checkout or go back to plan selection if something
-    is off. Subscription discount codes can also be redeemed at the checkout.
+      <p class="modal__card__text title_s">“I drink my coffee as _____, with a _____ type of bean. _____ ground ala _____,
+      sent to me _____.”
+      </p>
 
-    $_____/month
-
-    Checkout
+      <p class="modal__card__text text_m"> Is this correct? You can proceed to checkout or go back to plan selection if something
+      is off. Subscription discount codes can also be redeemed at the checkout.
+      </p>
+      <button class="modal__card__button button_green">
+        Checkout - $_____/month
+      </button>
+    </div>
   </section>
   <!-- End modal -->
 </main>
