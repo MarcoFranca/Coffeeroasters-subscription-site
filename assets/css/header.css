@@ -33,6 +33,10 @@ height: 1.3rem;
     color: var(--color--dark-grey-blue);
 }
 
+.header__nav__ul a:hover{
+    color: var(--color--dark-grey-blue);
+}
+
 #header__nav__button{
     border: none;
     background-color: transparent;

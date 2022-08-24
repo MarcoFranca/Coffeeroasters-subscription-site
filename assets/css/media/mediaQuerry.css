@@ -185,4 +185,16 @@
         height: 12rem;
     }
 
+    /******* footer *******/
+    .footer__card{
+        width: 100%;
+        padding: 3rem 0;
+    }
+
+    .footer__nav{
+        display: flex;
+        gap: 2rem;
+    }
+
+
 }

@@ -57,6 +57,6 @@ summary{
 }
 
 .accordion__button:hover{
-    background-color: var(--color--dark-cyan);
-    color: var(--color--light-cream);
+    background-color: var(--color--pale-orange);
+    color: var(--color--dark-grey-blue);
 }
