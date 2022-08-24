@@ -16,5 +16,27 @@
         width: 25rem;
     }
 
+    /****** commitment****/
+
+    .commitment{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 5rem;
+    }
+
+    .commitment__content{
+        text-align: left;
+    }
+
+    .commitment__img{
+        background-image: url("../../../images/about/tablet/image-commitment.jpg");
+        width: 18rem;
+        height: 30rem;
+        margin: 0;
+    }
+    .commitment__text{
+        width: 21rem;
+    }
 
 }
