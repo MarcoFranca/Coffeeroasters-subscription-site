@@ -7,6 +7,8 @@
 
 .plan__card{
     background-image: url("../../images/home/mobile/image-hero-coffeepress.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 32rem;
 }
 

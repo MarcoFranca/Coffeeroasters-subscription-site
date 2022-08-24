@@ -1,0 +1,73 @@
+
+/******* tablets *******/
+
+@media screen and (min-width: 768px) {
+
+    /*************header************/
+    body{padding: 2.5rem;}
+
+    .header{
+        width: 100%;
+    }
+
+    .header img{
+        height: 1.6rem;
+    }
+
+    .header__nav img{
+        display: none;
+    }
+
+    .header__nav{
+        display: flex;
+    }
+
+    .header__nav__ul{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        position: initial;
+        background-image: none;
+        width: initial;
+        height: initial;
+        padding-top: 0;
+        top: 0;
+        left: 0;
+        gap: 1.5rem;
+    }
+
+    .header__nav__ul a{
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        font-family: 'Barlow', sans-serif;
+        font-weight: 600;
+        color: var(--color--grey);
+    }
+
+    /*******cards*******/
+
+    .card{
+        margin-top: 1rem;
+        width: 100%;
+        text-align: initial;
+        align-items: initial;
+        padding: 1.5rem 4.2rem;
+    }
+
+    .plan__card{
+        background-image: url("../../images/home/tablet/image-hero-coffeepress.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 30rem;
+    }
+
+    .plan__card__text{
+        width: 25rem;
+    }
+
+    .plan__card a{
+        width: 8.7rem;
+    }
+
+}
