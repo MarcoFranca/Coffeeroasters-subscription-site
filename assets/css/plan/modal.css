@@ -1,5 +1,4 @@
 .modal{
-    /*display: flex;*/
     display: none;
     flex-direction: column;
     justify-content: center;
@@ -7,13 +6,16 @@
 }
 
 .modal__card{
+    position: absolute;
     width: 20rem;
     display: flex;
+    background-color: var(--color--light-cream);
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 0.5rem;
     overflow: hidden;
+    top: 1rem;
 }
 
 .modal__card__title{
@@ -27,6 +29,10 @@
 .modal__card__text{
     width: 16rem;
     color: var(--color--grey);
+}
+
+.modal__card__text span{
+    color: var(--color--dark-cyan);
 }
 
 .modal__card__button{

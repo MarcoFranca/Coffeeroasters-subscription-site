@@ -80,19 +80,21 @@
     </div>
   </section>
 
+<!--  /********** first choice | how do you drink coffe? ***********/-->
+
   <section id="how" class="choice">
     <details class="accordion">
       <summary class="accordion__title">
-        <h2 class="title_s">How do you drink your coffee?</h2> <img src="./assets/images/plan/desktop/icon-arrow.svg" alt="arrow icon"></summary>
-      <button class="accordion__button">
-        <h3 class="title_s">Capsule</h3>
+        <h2  class="title_s">How do you drink your coffee?</h2> <img src="./assets/images/plan/desktop/icon-arrow.svg" alt="arrow icon"></summary>
+      <button id="capsule" class="button2 accordion__button">
+        <h3  class=" title_s">Capsule</h3>
         <p class="text_m">Compatible with Nespresso systems and similar brewers</p>
       </button>
-      <button class="accordion__button">
+      <button id="filter" class="accordion__button">
         <h3 class="title_s">Filter</h3>
         <p class="text_m">For pour over or drip methods like Aeropress, Chemex, and V60</p>
       </button>
-      <button class="accordion__button">
+      <button id="espresso" class="accordion__button">
         <h3 class="title_s">Espresso</h3>
         <p class="text_m">Dense and finely ground beans for an intense, flavorful experience</p>
       </button>
@@ -101,26 +103,30 @@
     </details>
   </section>
 
+<!--  /********** second choice | What type of coffee? ***********/-->
+
   <section id="type" class="choice">
     <details class="accordion">
       <summary class="accordion__title">
         <h2 class="title_s">What type of coffee?</h2>
         <img src="./assets/images/plan/desktop/icon-arrow.svg" alt="arrow icon">
       </summary>
-      <button class="accordion__button">
-        <h3 class="title_s">Single origin</h3>
+      <button id="single" class="accordion__button">
+        <h3 class=" title_s">Single origin</h3>
         <p class="text_m">Distinct, high quality coffee from a specific family-owned farm</p>
       </button>
-      <button class="accordion__button">
+      <button id="decaf" class="accordion__button">
         <h3 class="title_s">Decaf</h3>
         <p class="text_m">Just like regular coffee, except the caffeine has been removed</p>
       </button>
-      <button class="accordion__button">
+      <button id="blended" class="accordion__button">
         <h3 class="title_s">Blended</h3>
         <p class="text_m">Combination of two or three dark roasted beans of organic coffees</p>
       </button>
     </details>
   </section>
+
+<!--  /********** third choice | How much would you like? ***********/-->
 
   <section id="much" class="choice">
     <details class="accordion">
@@ -128,20 +134,22 @@
         <h2 class="title_s">How much would you like?</h2>
         <img src="./assets/images/plan/desktop/icon-arrow.svg" alt="arrow icon">
       </summary>
-      <button class="accordion__button">
+      <button id="q250" class="accordion__button">
         <h3 class="title_s">250g</h3>
         <p class="text_m">Perfect for the solo drinker. Yields about 12 delicious cups.</p>
       </button>
-      <button class="accordion__button">
+      <button id="q500" class="accordion__button">
         <h3 class="title_s">500g</h3 >
         <p class="text_m" >Perfect option for a couple. Yields about 40 delectable cups.</p>
       </button>
-      <button class="accordion__button">
+      <button id="q1000" class="accordion__button">
         <h3 class="title_s">1000g</h3>
         <p class="text_m">Perfect for offices and events. Yields about 90 delightful cups.</p>
       </button>
     </details>
   </section>
+
+<!--  /********** fourth choice | Want us to grind them? ***********/-->
 
   <section id="grind" class="choice">
     <details class="accordion">
@@ -149,19 +157,20 @@
         <h2 class="title_s">Want us to grind them?</h2>
         <img src="./assets/images/plan/desktop/icon-arrow.svg" alt="arrow icon">
       </summary>
-      <button class="accordion__button">
+      <button id="wholebean" class="accordion__button">
         <h3 class="title_s">Wholebean</h3>
         <p class="text_m">Best choice if you cherish the full sensory experience</p>
       </button>
-      <button class="accordion__button">
+      <button id="aeropress" class="accordion__button">
         <h3 class="title_s">Filter</h3>
         <p class="text_m">For drip or pour-over coffee methods such as V60 or Aeropress</p>
       </button>
-      <button class="accordion__button">
+      <button id="cafetiere" class="accordion__button">
         <h3 class="title_s">Cafetiére</h3>
         <p class="text_m">Course ground beans specially suited for French press coffee</p>
       </button>
 
+<!--      /********** fifth choice | How often should we deliver? ***********/-->
 
     </details>
   </section>
@@ -171,45 +180,59 @@
         <h2 class="title_s">How often should we deliver?</h2>
         <img src="./assets/images/plan/desktop/icon-arrow.svg" alt="arrow icon">
       </summary>
-      <button class="accordion__button">
+
+<!--      /********** fifth choice | How often should we deliver? ***********/-->
+
+      <button id="every" class="accordion__button" >
         <h3 class="title_s">Every week</h3>
-        <p class="text_m">$14.00 per shipment. Includes free first-class shipping.</p>
+        <p class="text_m">$ <span id="oneWeek">14.00</span> per shipment. Includes free first-class shipping.</p>
       </button>
-      <button class="accordion__button">
-        <h3 class="title_s">Every 2 weeks </h3>
+      <button id="every2" class="accordion__button">
+        <h3 class="title_s">Every 2 weeks</h3>
         <p class="text_m">$17.25 per shipment. Includes free priority shipping.</p>
       </button>
-      <button class="accordion__button">
+      <button id="month" class="accordion__button">
         <h3 class="title_s">Every month</h3>
         <p class="text_m">$22.50 per shipment. Includes free priority shipping.</p>
       </button>
     </details>
   </section>
+
+<!--  /***** order card******/-->
+
   <section class="order">
     <div class="order__card">
       <h2 class="order__card__title text_m">Order Summary</h2>
-      <p class="order__card__text title_s">“I drink my coffee as _____, with a _____ type of bean. _____ ground ala _____,
-        sent to me _____.”</p>
+      <p class="order__card__text title_s">
+        “I drink my coffee as <span id="howTxt">_____</span>,
+        with a <span id="typeTxt">_____</span>
+        type of bean. <span id="muchTxt">_____</span>
+        ground ala <span id="grindTxt">_____</span>,
+        sent to me <span id="oftenTxt">_____</span>.”</p>
     </div>
-    <button class="button_green">
+    <button id="create" class="button_green">
       Create my plan!
     </button>
   </section>
   <!-- Modal -->
-  <section class="modal">
+  <section id="modal" class="modal">
     <div class="modal__card">
 
       <h2 class="modal__card__title title_m">Order Summary</h2>
 
-      <p class="modal__card__text title_s">“I drink my coffee as _____, with a _____ type of bean. _____ ground ala _____,
-      sent to me _____.”
+      <p id="modalText" class="modal__card__text title_s">
+        “I drink my coffee as <span id="howTxt2">_____</span>,
+        with a <span id="typeTxt2">_____</span>
+        type of bean. <span id="muchTxt2">_____</span>
+        ground ala <span id="grindTxt2">_____</span>,
+      sent to me <span id="oftenTxt2">_____</span>.”
       </p>
 
       <p class="modal__card__text text_m"> Is this correct? You can proceed to checkout or go back to plan selection if something
       is off. Subscription discount codes can also be redeemed at the checkout.
       </p>
-      <button class="modal__card__button button_green">
-        Checkout - $_____/month
+      <button id="checkout" class="modal__card__button button_green">
+        Checkout - $ <span id="value">_____</span>/month
       </button>
     </div>
   </section>
@@ -233,5 +256,6 @@
   </div>
 </footer>
 </body>
+<script src="assets/js/functions.js"></script>
 <script src="assets/js/script.js"></script>
 </html>
