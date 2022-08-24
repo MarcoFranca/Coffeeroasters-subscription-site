@@ -16,7 +16,7 @@
         width: 25rem;
     }
 
-    /****** commitment****/
+    /****** commitment ****/
 
     .commitment{
         flex-direction: row;
@@ -38,5 +38,25 @@
     .commitment__text{
         width: 21rem;
     }
+
+    /****** quality ****/
+
+    .quality__card__img{
+        background-image: url("../../../images/about/tablet/image-quality.jpg");
+        top: -10rem;
+        border-radius: 0.4rem;
+        width: 85%;
+        height: 20rem;
+        margin-bottom: -8rem;
+    }
+
+    .quality__card{
+     width: 100%;
+    }
+
+    .quality__card__text{
+        width: 33.4rem;
+    }
+
 
 }
