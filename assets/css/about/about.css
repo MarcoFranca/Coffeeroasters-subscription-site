@@ -17,3 +17,7 @@
     width: 17rem;
     color: rgba(254, 252, 247, 0.7);
 }
+
+.about__card__content h2{
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,20 @@
+
+@media screen and (min-width: 768px) {
+    .about__card {
+        background-image: url("../../../images/about/tablet/image-hero-whitecup.jpg");
+        width: 100%;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .about__card h2{
+        padding-left: 3rem;
+    }
+
+    .about__card__text{
+        padding-left: 3rem;
+        width: 25rem;
+    }
+
+
+}
