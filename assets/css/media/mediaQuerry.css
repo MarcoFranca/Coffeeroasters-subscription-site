@@ -70,4 +70,31 @@
         width: 8.7rem;
     }
 
+    /******* collection *******/
+    .collection{
+        position: relative;
+        margin-top: 8rem;
+    }
+
+    .collection__title{
+        font-size: 7rem;
+        position: absolute;
+        line-height: 5.5rem;
+        background-image: linear-gradient(to bottom, rgb(194, 195, 196) 10%, rgb(245, 245, 245));
+        margin-top: 0;
+        top: -0.6rem;
+        z-index: -1;
+    }
+    .collection__card{
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+        width: 35rem;
+
+    }
+
+    .collection__card{
+
+    }
+
 }
