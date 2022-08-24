@@ -92,9 +92,48 @@
         width: 35rem;
 
     }
+    /******* about *******/
 
-    .collection__card{
+    .about__why{
+        background-image: initial;
+        background-color: var(--color--dark-blue);
+        width: 100%;
+        padding-bottom: 27rem;
+    }
 
+    .about__why__text{
+        width: 30.7rem;
+    }
+
+    .about__cards{
+        display: flex;
+        position: relative;
+        top: -23rem;
+        width: 85%;
+        margin-bottom: -23rem;
+    }
+
+    .about__card{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        text-align: left;
+        padding: 3rem 4rem;
+        gap: 3rem;
+    }
+
+    .about__card img{
+        width: 4rem;
+        margin-top: 0;
+    }
+
+    .about__card__titel{
+        margin-top: 0;
+    }
+
+    .about__card__text{
+        margin: 1rem 0;
+        width: 23rem;
     }
 
 }
