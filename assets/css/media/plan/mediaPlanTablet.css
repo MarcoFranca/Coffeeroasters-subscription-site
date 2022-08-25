@@ -1,0 +1,17 @@
+.plan__card{
+    background-image: url("../../../images/plan/tablet/image-hero-blackcup.jpg");
+    width: 100% ;
+    text-align: left;
+    align-items: flex-start;
+}
+
+.plan__title{
+ padding-left: 3rem;
+}
+
+.plan__text{
+    padding-left: 3rem;
+    width: 24.5rem;
+    font-size: 1.1rem;
+    line-height: 2rem;
+}

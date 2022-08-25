@@ -58,5 +58,22 @@
         width: 33.4rem;
     }
 
+    /****** headquarters ****/
+
+    .headquarters{
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .headquarters__cards{
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+    }
+
+    .headquarters__card__title{
+        font-size: 1.54rem;
+        margin-bottom: 1.6rem;
+    }
 
 }
