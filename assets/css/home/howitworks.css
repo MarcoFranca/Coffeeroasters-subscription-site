@@ -5,6 +5,7 @@
     text-align: center;
     align-items: center;
     margin-top: 10rem;
+    margin-bottom: 5rem;
 }
 
 .how-it-works__title{
@@ -33,6 +34,6 @@
     width: 19.75rem;
 }
 
-.how-it-works__button{
-    margin: 5rem 0;
+.how-it-works__btn-div{
+    margin-top: 5rem;
 }

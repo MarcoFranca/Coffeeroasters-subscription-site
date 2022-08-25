@@ -30,6 +30,7 @@
     }
 
     /******* collection *******/
+
     .collection{
         position: relative;
         margin-top: 8rem;
@@ -51,6 +52,7 @@
         width: 35rem;
 
     }
+
     /******* about *******/
 
     .about__why{
@@ -142,6 +144,11 @@
         letter-spacing: 1px;
         width: 14rem;
         height: 12rem;
+    }
+
+    .how-it-works__btn-div{
+        width: 85%;
+        margin-top: 5rem;
     }
 
 }
