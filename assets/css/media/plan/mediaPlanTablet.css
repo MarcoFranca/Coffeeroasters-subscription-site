@@ -110,6 +110,8 @@
         padding: 1.5rem 1.5rem 5rem 1.5rem;
     }
 
+    /******* order *******/
+
     .order__card{
         width: 100%;
     }
@@ -123,4 +125,17 @@
         padding: 0 0 3rem 3rem;
         width: 36rem;
     }
+
+    /******* modal *******/
+
+    .modal__card{
+        top: 14rem;
+        width: 34rem;
+    }
+
+    .modal__card h2{
+        padding: 3rem 0 3rem 6rem;
+    }
+
+
 }
