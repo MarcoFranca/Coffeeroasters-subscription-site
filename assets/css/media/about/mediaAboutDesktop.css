@@ -1,0 +1,25 @@
+/****** DESKTOP ****/
+
+@media screen and (min-width: 1024px) {
+
+    /****** DESKTOP | ABOUT SECTION ******/
+    .about__card {
+        background-image: url("../../../images/about/desktop/image-hero-whitecup.jpg");
+        width: 100%;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .about__card__text{
+        font-size: 1rem;
+        width: 27rem;
+    }
+
+    .about__card__content h2{
+       font-size: 2.5rem;
+    }
+
+    /****** DESKTOP | ABOUT SECTION ******/
+
+
+}

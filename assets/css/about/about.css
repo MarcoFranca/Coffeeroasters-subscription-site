@@ -8,6 +8,7 @@
 .about__card{
     background-image: url("../../images/about/mobile/image-hero-whitecup.jpg");
     background-position: center;
+    background-repeat: no-repeat;
     height: 26.5rem;
     color: var(--color--light-cream);
     margin: 2.5rem 0;
