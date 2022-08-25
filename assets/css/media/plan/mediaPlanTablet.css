@@ -108,8 +108,19 @@
     .accordion__button{
         width: 13rem;
         padding: 1.5rem 1.5rem 5rem 1.5rem;
-
     }
 
+    .order__card{
+        width: 100%;
+    }
 
+    .order__card__text{
+        padding: 0 0 3rem 3rem;
+        width: 16rem;
+    }
+
+    .order__card__text{
+        padding: 0 0 3rem 3rem;
+        width: 36rem;
+    }
 }

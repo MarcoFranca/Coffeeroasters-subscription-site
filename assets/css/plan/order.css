@@ -1,5 +1,4 @@
 .order{
-    /*display: none;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,7 +13,6 @@
     color: var(--color--light-cream);
     border-radius: 0.5rem;
     width: 20rem;
-
 }
 
 .order__card__title{
