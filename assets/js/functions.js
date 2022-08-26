@@ -3,17 +3,18 @@
 /*************** get text elements from choice selections *********
  *************** and add them to the full modal card      *********/
 
-function getText(idSelector,idUnclick1,idUnclick2, case1, case2, case3, orderId1, orderId2) {
+function getText(idSelector,idUnclick1,idUnclick2, case1, case2, case3, orderId1, orderId2, idStep, idStepNum) {
     document.querySelector(idSelector).addEventListener('click',()=>{
 
         valueBill(orderId1)
         valueBill(idSelector)
+        selectSteps(idSelector, idUnclick1, idUnclick2, idStep, idStepNum)
+
 
         console.log(document.querySelector(idSelector).firstElementChild.textContent)
         switch (document.querySelector(idSelector).firstElementChild.textContent) {
 
             case case1:
-                console.log(case1)
                 document.querySelector(orderId1).textContent =
                     document.querySelector(idSelector).firstElementChild.textContent;
                 document.querySelector(orderId2).textContent =
@@ -37,6 +38,7 @@ function getText(idSelector,idUnclick1,idUnclick2, case1, case2, case3, orderId1
                 changeColor(idSelector,idUnclick1,idUnclick2)
                 break;
         }
+        validateButton()
     })
 }
 
@@ -67,6 +69,17 @@ function validateBill() {
     }
 }
 
+function validateButton() {
+    let value = document.querySelector('#modalText').textContent
+    if (value.includes('_____')){
+        return false
+    }else {
+        document.querySelector('#create').classList.toggle("button_green")
+        document.querySelector('#create').classList.toggle("button_gray")
+        return true
+    }
+}
+
 /*************** fill in the amounts of *************
  *************** the chosen monthly fee *************/
 
@@ -85,3 +98,15 @@ function valueBill(idSelector){
                 break;
         }
     }}
+
+//'#capsule','#filter','#espresso' fica azul
+
+function selectSteps(idSelector, id1, id2, idStep, idStepNum) {
+    let id = [idSelector, id1 , id2]
+    id.map((key)=>{
+        if (idSelector === key){
+            document.querySelector(idStep).style.color = 'var(--color--dark-grey-blue)'
+            document.querySelector(idStepNum).style.color = 'var(--color--dark-cyan)'
+        }
+    })
+}

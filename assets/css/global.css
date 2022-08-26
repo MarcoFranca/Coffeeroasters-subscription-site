@@ -11,7 +11,7 @@ a{
     --color--dark-blue:rgb(37, 45, 55);
     --color--pale-orange: rgb(253,214,186);
     --color--light-cream: rgb(254,252,247);
-    --color--grey: rgb(131,136,143);
+    --color--grey: rgba(194, 195, 196, 0.63);
 
     /*****font-family****/
 
@@ -78,6 +78,17 @@ body{
     font-size: 1rem;
     padding: 1rem 2rem;
     background-color: var(--color--dark-cyan);
+    color: #FEFCF7;
+    border-radius: .3rem;
+    border: none;
+    cursor: pointer;
+}
+
+.button_gray{
+    font-family: var(--font--fraunces--serif);
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    background-color: rgba(185, 183, 183, 0.59);
     color: #FEFCF7;
     border-radius: .3rem;
     border: none;
