@@ -36,6 +36,7 @@
     }
 
     /****** DESKTOP | QUALITY SECTION ******/
+
     .quality {
         text-align: left;
     }
@@ -71,6 +72,32 @@
         width: 100%;
         margin-bottom: 0;
     }
+
+    /****** DESKTOP | HEADQUARTERS SECTION ******/
+
+    .headquarters{
+        align-items: center;
+        width: 85%;
+    }
+
+    .headquarters__container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 85%;
+        justify-content: space-between;
+    }
+
+    .headquarters__title{
+        width: 100%;
+    }
+
+    .headquarters__cards{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5rem;
+    }
+
 }
 
 @media screen and (min-width: 1280px) {
@@ -83,6 +110,10 @@
     .commitment__text{
         font-size: 1rem;
         width: 33rem;
+    }
+
+    .headquarters__cards{
+        gap: 10rem;
     }
 
 }
