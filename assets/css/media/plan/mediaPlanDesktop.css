@@ -1,0 +1,25 @@
+/******* PLAN | DESKTOP *******/
+
+@media screen and (min-width: 1024px) {
+
+    /****** DESKTOP | PLAN SECTION ******/
+    .plan__card {
+        background-image: url("../../../images/plan/desktop/image-hero-blackcup.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 24rem;
+        margin-top: 4rem;
+    }
+
+    .plan__title{
+        font-size: 4.5rem;
+    }
+
+    .plan__text{
+       font-size: 1.1rem;
+        width: 26rem;
+    }
+
+
+
+}
