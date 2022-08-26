@@ -16,10 +16,38 @@
     }
 
     .plan__text{
-       font-size: 1.1rem;
+        font-size: 1.1rem;
         width: 26rem;
     }
 
+    /****** DESKTOP | STEPS SECTION ******/
 
+    .steps{
+        margin: 0;
+    }
+
+    .steps__card{
+        padding-left: 4rem;
+    }
+
+    .steps__card__content{
+        padding-right: 5rem;
+    }
+
+    .steps__card__content:last-child{
+        padding-right: 2rem;
+    }
+
+    .steps__card__text{
+        width: 15rem;
+    }
+
+}
+
+
+@media screen and (min-width: 1240px) {
+    .steps__card__text{
+        width: 17rem;
+    }
 
 }
