@@ -76,140 +76,145 @@
         </p>
       </div>
     </div>
+  </section>
+
+  <div class="steps__container">
     <div class="steps__option">
-      <ul>
-        <li>01 Preferences</li>
-        <li>02 Bean type</li>
-        <li>03 Quantity</li>
-        <li>04 Grind option</li>
-        <li>05 Deliveries</li>
+      <ul class="title_s">
+        <li><span class="steps__option__number">01</span>Preferences</li>
+        <li><span class="steps__option__number">02</span>Bean type</li>
+        <li><span class="steps__option__number">03</span>Quantity</li>
+        <li><span class="steps__option__number">04</span>Grind option</li>
+        <li><span class="steps__option__number">05</span>Deliveries</li>
       </ul>
     </div>
-  </section>
 
-  <!--  /********** first choice | how do you drink coffe? ***********/-->
+    <div class="choice__container">
+      <!--  /********** first choice | how do you drink coffe? ***********/-->
 
-  <section id="how" class="choice">
-    <details class="accordion">
-      <summary class="accordion__title">
-        <h2  class="title_s">How do you drink your coffee?</h2> <img src="./assets/images/plan/desktop/icon-arrow.svg" alt="arrow icon"></summary>
-      <div class="accordion__content">
-        <button id="capsule" class="button2 accordion__button">
-          <h3  class=" title_s">Capsule</h3>
-          <p class="text_m">Compatible with Nespresso systems and similar brewers</p>
-        </button>
-        <button id="filter" class="accordion__button">
-          <h3 class="title_s">Filter</h3>
-          <p class="text_m">For pour over or drip methods like Aeropress, Chemex, and V60</p>
-        </button>
-        <button id="espresso" class="accordion__button">
-          <h3 class="title_s">Espresso</h3>
-          <p class="text_m">Dense and finely ground beans for an intense, flavorful experience</p>
-        </button>
-      </div>
+      <section id="how" class="choice">
+        <details class="accordion">
+          <summary class="accordion__title">
+            <h2  class="title_s">How do you drink your coffee?</h2> <img src="./assets/images/plan/desktop/icon-arrow.svg" alt="arrow icon"></summary>
+          <div class="accordion__content">
+            <button id="capsule" class="button2 accordion__button">
+              <h3  class=" title_s">Capsule</h3>
+              <p class="text_m">Compatible with Nespresso systems and similar brewers</p>
+            </button>
+            <button id="filter" class="accordion__button">
+              <h3 class="title_s">Filter</h3>
+              <p class="text_m">For pour over or drip methods like Aeropress, Chemex, and V60</p>
+            </button>
+            <button id="espresso" class="accordion__button">
+              <h3 class="title_s">Espresso</h3>
+              <p class="text_m">Dense and finely ground beans for an intense, flavorful experience</p>
+            </button>
+          </div>
 
 
-    </details>
-  </section>
+        </details>
+      </section>
 
-  <!--  /********** second choice | What type of coffee? ***********/-->
+      <!--  /********** second choice | What type of coffee? ***********/-->
 
-  <section id="type" class="choice">
-    <details class="accordion">
-      <summary class="accordion__title">
-        <h2 class="title_s">What type of coffee?</h2>
-        <img src="./assets/images/plan/desktop/icon-arrow.svg" alt="arrow icon">
-      </summary><div class="accordion__content">
-      <button id="single" class="accordion__button">
-        <h3 class=" title_s">Single origin</h3>
-        <p class="text_m">Distinct, high quality coffee from a specific family-owned farm</p>
-      </button>
-      <button id="decaf" class="accordion__button">
-        <h3 class="title_s">Decaf</h3>
-        <p class="text_m">Just like regular coffee, except the caffeine has been removed</p>
-      </button>
-      <button id="blended" class="accordion__button">
-        <h3 class="title_s">Blended</h3>
-        <p class="text_m">Combination of two or three dark roasted beans of organic coffees</p>
-      </button>
+      <section id="type" class="choice">
+        <details class="accordion">
+          <summary class="accordion__title">
+            <h2 class="title_s">What type of coffee?</h2>
+            <img src="./assets/images/plan/desktop/icon-arrow.svg" alt="arrow icon">
+          </summary><div class="accordion__content">
+          <button id="single" class="accordion__button">
+            <h3 class=" title_s">Single origin</h3>
+            <p class="text_m">Distinct, high quality coffee from a specific family-owned farm</p>
+          </button>
+          <button id="decaf" class="accordion__button">
+            <h3 class="title_s">Decaf</h3>
+            <p class="text_m">Just like regular coffee, except the caffeine has been removed</p>
+          </button>
+          <button id="blended" class="accordion__button">
+            <h3 class="title_s">Blended</h3>
+            <p class="text_m">Combination of two or three dark roasted beans of organic coffees</p>
+          </button>
+        </div>
+        </details>
+      </section>
+
+      <!--  /********** third choice | How much would you like? ***********/-->
+
+      <section id="much" class="choice">
+        <details class="accordion">
+          <summary class="accordion__title">
+            <h2 class="title_s">How much would you like?</h2>
+            <img src="./assets/images/plan/desktop/icon-arrow.svg" alt="arrow icon">
+          </summary><div class="accordion__content">
+          <button id="q250" class="accordion__button">
+            <h3 class="title_s">250g</h3>
+            <p class="text_m">Perfect for the solo drinker. Yields about 12 delicious cups.</p>
+          </button>
+          <button id="q500" class="accordion__button">
+            <h3 class="title_s">500g</h3 >
+            <p class="text_m" >Perfect option for a couple. Yields about 40 delectable cups.</p>
+          </button>
+          <button id="q1000" class="accordion__button">
+            <h3 class="title_s">1000g</h3>
+            <p class="text_m">Perfect for offices and events. Yields about 90 delightful cups.</p>
+          </button>
+        </div>
+        </details>
+      </section>
+
+      <!--  /********** fourth choice | Want us to grind them? ***********/-->
+
+      <section id="grind" class="choice">
+        <details class="accordion">
+          <summary class="accordion__title">
+            <h2 class="title_s">Want us to grind them?</h2>
+            <img src="./assets/images/plan/desktop/icon-arrow.svg" alt="arrow icon">
+          </summary><div class="accordion__content">
+          <button id="wholebean" class="accordion__button">
+            <h3 class="title_s">Wholebean</h3>
+            <p class="text_m">Best choice if you cherish the full sensory experience</p>
+          </button>
+          <button id="aeropress" class="accordion__button">
+            <h3 class="title_s">Filter</h3>
+            <p class="text_m">For drip or pour-over coffee methods such as V60 or Aeropress</p>
+          </button>
+          <button id="cafetiere" class="accordion__button">
+            <h3 class="title_s">Cafetiére</h3>
+            <p class="text_m">Course ground beans specially suited for French press coffee</p>
+          </button>
+
+          <!--      /********** fifth choice | How often should we deliver? ***********/-->
+
+        </div>
+        </details>
+      </section>
+      <section id="how-often" class="choice">
+        <details class="accordion">
+          <summary class="accordion__title">
+            <h2 class="title_s">How often should we deliver?</h2>
+            <img src="./assets/images/plan/desktop/icon-arrow.svg" alt="arrow icon">
+          </summary>
+
+          <!--      /********** fifth choice | How often should we deliver? ***********/-->
+          <div class="accordion__content">
+            <button id="every" class="accordion__button" >
+              <h3 class="title_s">Every week</h3>
+              <p class="text_m">$ <span id="oneWeek">14.00</span> per shipment. Includes free first-class shipping.</p>
+            </button>
+            <button id="every2" class="accordion__button">
+              <h3 class="title_s">Every 2 weeks</h3>
+              <p class="text_m">$17.25 per shipment. Includes free priority shipping.</p>
+            </button>
+            <button id="month" class="accordion__button">
+              <h3 class="title_s">Every month</h3>
+              <p class="text_m">$22.50 per shipment. Includes free priority shipping.</p>
+            </button>
+          </div>
+        </details>
+      </section>
     </div>
-    </details>
-  </section>
-
-  <!--  /********** third choice | How much would you like? ***********/-->
-
-  <section id="much" class="choice">
-    <details class="accordion">
-      <summary class="accordion__title">
-        <h2 class="title_s">How much would you like?</h2>
-        <img src="./assets/images/plan/desktop/icon-arrow.svg" alt="arrow icon">
-      </summary><div class="accordion__content">
-      <button id="q250" class="accordion__button">
-        <h3 class="title_s">250g</h3>
-        <p class="text_m">Perfect for the solo drinker. Yields about 12 delicious cups.</p>
-      </button>
-      <button id="q500" class="accordion__button">
-        <h3 class="title_s">500g</h3 >
-        <p class="text_m" >Perfect option for a couple. Yields about 40 delectable cups.</p>
-      </button>
-      <button id="q1000" class="accordion__button">
-        <h3 class="title_s">1000g</h3>
-        <p class="text_m">Perfect for offices and events. Yields about 90 delightful cups.</p>
-      </button>
-    </div>
-    </details>
-  </section>
-
-  <!--  /********** fourth choice | Want us to grind them? ***********/-->
-
-  <section id="grind" class="choice">
-    <details class="accordion">
-      <summary class="accordion__title">
-        <h2 class="title_s">Want us to grind them?</h2>
-        <img src="./assets/images/plan/desktop/icon-arrow.svg" alt="arrow icon">
-      </summary><div class="accordion__content">
-      <button id="wholebean" class="accordion__button">
-        <h3 class="title_s">Wholebean</h3>
-        <p class="text_m">Best choice if you cherish the full sensory experience</p>
-      </button>
-      <button id="aeropress" class="accordion__button">
-        <h3 class="title_s">Filter</h3>
-        <p class="text_m">For drip or pour-over coffee methods such as V60 or Aeropress</p>
-      </button>
-      <button id="cafetiere" class="accordion__button">
-        <h3 class="title_s">Cafetiére</h3>
-        <p class="text_m">Course ground beans specially suited for French press coffee</p>
-      </button>
-
-      <!--      /********** fifth choice | How often should we deliver? ***********/-->
-
-    </div>
-    </details>
-  </section>
-  <section id="how-often" class="choice">
-    <details class="accordion">
-      <summary class="accordion__title">
-        <h2 class="title_s">How often should we deliver?</h2>
-        <img src="./assets/images/plan/desktop/icon-arrow.svg" alt="arrow icon">
-      </summary>
-
-      <!--      /********** fifth choice | How often should we deliver? ***********/-->
-      <div class="accordion__content">
-        <button id="every" class="accordion__button" >
-          <h3 class="title_s">Every week</h3>
-          <p class="text_m">$ <span id="oneWeek">14.00</span> per shipment. Includes free first-class shipping.</p>
-        </button>
-        <button id="every2" class="accordion__button">
-          <h3 class="title_s">Every 2 weeks</h3>
-          <p class="text_m">$17.25 per shipment. Includes free priority shipping.</p>
-        </button>
-        <button id="month" class="accordion__button">
-          <h3 class="title_s">Every month</h3>
-          <p class="text_m">$22.50 per shipment. Includes free priority shipping.</p>
-        </button>
-      </div>
-    </details>
-  </section>
+  </div>
 
   <!--  /***** order card******/-->
 

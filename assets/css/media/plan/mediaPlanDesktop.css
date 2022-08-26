@@ -42,6 +42,42 @@
         width: 15rem;
     }
 
+    /****** DESKTOP | ACCORDION SECTION ******/
+
+    .steps__container{
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+    }
+
+    .steps__option{
+        display: flex;
+    }
+
+    .steps__option__number{
+        margin-right: 1rem;
+        color: var(--color--dark-cyan);
+    }
+
+    .steps__option li{
+        padding: 1.75rem 0;
+        border-bottom: solid var(--color--grey) 1px;
+    }
+
+    .choice__container{
+        flex-direction: column;
+    }
+
+    .accordion__title h2{
+        font-size: 2.3rem;
+        margin-right: 2rem;
+    }
+
+    .accordion__button{
+        width: 12.5rem;
+        padding: 1.5rem 1.5rem 4rem 1.5rem;
+    }
+
 }
 
 
@@ -50,4 +86,7 @@
         width: 17rem;
     }
 
+    .steps__container{
+        gap: 10rem;
+    }
 }
