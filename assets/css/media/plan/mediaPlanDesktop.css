@@ -52,17 +52,20 @@
 
     .steps__option{
         display: flex;
+        /*transition: 0.3s;*/
     }
 
     .steps__option__number{
         margin-right: 1rem;
         color: var(--color--grey);
+        transition: 0.3s;
     }
 
     .steps__option li{
         padding: 1.75rem 0;
         color: var(--color--grey);
         border-bottom: solid var(--color--grey) 1px;
+        transition: 0.3s;
     }
 
     .choice__container{

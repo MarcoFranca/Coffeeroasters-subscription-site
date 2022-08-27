@@ -3,12 +3,12 @@
 /*************** get text elements from choice selections *********
  *************** and add them to the full modal card      *********/
 
-function getText(idSelector,idUnclick1,idUnclick2, case1, case2, case3, orderId1, orderId2, idStep, idStepNum) {
+function getText(idSelector,idUnclick1,idUnclick2, case1, case2, case3, orderId1, orderId2, idStep, idStepNum, acordionsId) {
     document.querySelector(idSelector).addEventListener('click',()=>{
 
         valueBill(orderId1)
         valueBill(idSelector)
-        selectSteps(idSelector, idUnclick1, idUnclick2, idStep, idStepNum)
+        selectSteps(idSelector, idUnclick1, idUnclick2, idStep, idStepNum, acordionsId)
 
 
         console.log(document.querySelector(idSelector).firstElementChild.textContent)
@@ -99,12 +99,13 @@ function valueBill(idSelector){
         }
     }}
 
-function selectSteps(idSelector, id1, id2, idStep, idStepNum) {
+function selectSteps(idSelector, id1, id2, idStep, idStepNum, acordionsId) {
     let id = [idSelector, id1 , id2]
     id.map((key)=>{
         if (idSelector === key){
             document.querySelector(idStep).style.color = 'var(--color--dark-grey-blue)'
             document.querySelector(idStepNum).style.color = 'var(--color--dark-cyan)'
+            document.querySelector(acordionsId).style.color = 'rgb(111, 111, 112)'
         }
     })
 }

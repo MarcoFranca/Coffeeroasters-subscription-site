@@ -11,7 +11,7 @@ a{
     --color--dark-blue:rgb(37, 45, 55);
     --color--pale-orange: rgb(253,214,186);
     --color--light-cream: rgb(254,252,247);
-    --color--grey: rgba(194, 195, 196, 0.63);
+    --color--grey: rgba(153, 153, 154, 0.63);
 
     /*****font-family****/
 
@@ -82,6 +82,7 @@ body{
     border-radius: .3rem;
     border: none;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .button_gray{

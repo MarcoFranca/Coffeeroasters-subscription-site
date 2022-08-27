@@ -33,6 +33,7 @@
 
 .footer__nav a{
     color: var(--color--grey);
+    transition: 0.3s;
 }
 
 .footer__nav a:hover{
