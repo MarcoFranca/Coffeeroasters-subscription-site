@@ -99,8 +99,6 @@ function valueBill(idSelector){
         }
     }}
 
-//'#capsule','#filter','#espresso' fica azul
-
 function selectSteps(idSelector, id1, id2, idStep, idStepNum) {
     let id = [idSelector, id1 , id2]
     id.map((key)=>{
