@@ -1,12 +1,14 @@
 .modal{
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /*display: flex;*/
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    z-index: 10;
 }
 
 .modal__card{
-    position: absolute;
     width: 20rem;
     display: flex;
     background-color: var(--color--light-cream);
@@ -26,12 +28,19 @@
     margin-bottom: 2rem;
 }
 
-.modal__card__text{
+.modal__card__check{
     width: 16rem;
-    color: var(--color--grey);
+    color: rgb(131, 136, 142);
 }
 
-.modal__card__text span{
+.modal__card__text{
+    margin-top: 1rem;
+    font-size: 1rem;
+    width: 16rem;
+    color: var(--color--dark-grey-blue);
+}
+
+.modal__card__check span{
     color: var(--color--dark-cyan);
 }
 

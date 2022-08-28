@@ -62,7 +62,6 @@ function validateBill() {
     if (value.includes('_____')){
         console.log('cant be zero')
         alert('please !!! select all choice options')
-        modal.style.display = ''
         return false
     }else {
         return true
@@ -74,8 +73,8 @@ function validateButton() {
     if (value.includes('_____')){
         return false
     }else {
-        document.querySelector('#create').classList.toggle("button_green")
-        document.querySelector('#create').classList.toggle("button_gray")
+        document.querySelector('#open-modal').classList.toggle("button_green")
+        document.querySelector('#open-modal').classList.toggle("button_gray")
         return true
     }
 }
@@ -108,4 +107,11 @@ function selectSteps(idSelector, id1, id2, idStep, idStepNum, acordionsId) {
             document.querySelector(acordionsId).style.color = 'rgb(111, 111, 112)'
         }
     })
+}
+
+/*************** modal *************/
+
+
+function toggleModal() {
+    [modal, fade].forEach((e)=>{e.classList.toggle('hide')})
 }

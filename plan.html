@@ -36,7 +36,8 @@
   <title>Coffeeroasters subscription site</title>
 </head>
 
-<body id="fade">
+<body>
+
 <header class="header">
   <h1 class="header__image">
     <img src="assets/images/shared/desktop/logo.svg" alt="coffeeroasters company logo" title="coffeeroasters company logo">
@@ -237,17 +238,19 @@
         ground ala <span id="grindTxt">_____</span>,
         sent to me <span id="oftenTxt">_____</span>.”</p>
     </div>
-    <button id="create" class="button_gray">
+    <button id="open-modal" class="button_gray">
       Create my plan!
     </button>
   </section>
   <!-- Modal -->
-  <section id="modal" class="modal">
+
+  <div id="fade" class="hide"></div>
+  <section id="modal" class="modal hide">
     <div class="modal__card">
 
       <h2 class="modal__card__title title_m">Order Summary</h2>
 
-      <p id="modalText" class="modal__card__text title_s">
+      <p id="modalText" class="modal__card__check title_s">
         “I drink my coffee as <span id="howTxt2">_____</span>,
         with a <span id="typeTxt2">_____</span>
         type of bean. <span id="muchTxt2">_____</span>
@@ -258,11 +261,15 @@
       <p class="modal__card__text text_m"> Is this correct? You can proceed to checkout or go back to plan selection if something
         is off. Subscription discount codes can also be redeemed at the checkout.
       </p>
-      <button id="checkout" class="modal__card__button button_green">
+      <div class="modal__result-button">
+      <span id="modalVal" class="title_m"></span>
+      <button id="close-modal" class="modal__card__button button_green">
         Checkout - $ <span id="value">_____</span>/month
       </button>
+      </div>
     </div>
   </section>
+
   <!-- End modal -->
 </main>
 <footer class="footer">

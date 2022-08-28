@@ -1,8 +1,7 @@
-const createPlan = document.querySelector('#create')
+const createPlan = document.querySelector('#open-modal')
 const modal = document.querySelector('#modal')
-const checkout = document.querySelector('#checkout')
-
-
+const checkout = document.querySelector('#close-modal')
+const fade = document.querySelector('#fade')
 
 /*******get texts order | modal*********/
 
@@ -55,18 +54,20 @@ getText('#month','#every','#every2','Every week', 'Every 2 weeks', 'Every month'
 
 checkout.addEventListener('click', ()=>{
     if (validateBill()){
-        modal.style.display = ''
         alert("success")
         console.log('success')
+        toggleModal()
     }
 
 })
 
 createPlan.addEventListener('click', ()=>{
-if (document.querySelector('#create').classList.value !== "button_gray") {
-    if (modal.style.display === '') {
-        modal.style.display = 'flex'
-        scroll(0, 0)
-    }
+if (document.querySelector('#open-modal').classList.value !== "button_gray") {
+    scroll(0, 0)
+    toggleModal()
 }
 })
+
+
+
+

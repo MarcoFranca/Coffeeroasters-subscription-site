@@ -95,6 +95,15 @@
         width: 41rem;
     }
 
+    .modal__card__check{
+        width: 26rem;
+    }
+
+    .modal__card__text{
+        font-size: 1.1rem;
+        width: 26rem;
+    }
+
 }
 
 
