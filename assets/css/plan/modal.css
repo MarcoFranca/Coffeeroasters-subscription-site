@@ -1,5 +1,4 @@
 .modal{
-    /*display: flex;*/
     position: fixed;
     left: 50%;
     top: 50%;
@@ -46,4 +45,14 @@
 
 .modal__card__button{
     margin: 3rem 0;
+}
+
+.modal__card__button-desk{
+    margin: 3rem 0;
+    padding: 1.4rem 4rem;
+    font-size: 1.4rem;
+}
+
+#value{
+    margin-right: 1rem;
 }

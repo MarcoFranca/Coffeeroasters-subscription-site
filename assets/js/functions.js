@@ -85,15 +85,17 @@ function validateButton() {
 function valueBill(idSelector){
 
     if (idSelector === '#every' || idSelector === '#every2' || idSelector ==='#month'){
+        createButton()
         switch (idSelector) {
             case '#every':
-                document.querySelector('#value').textContent = '14.00';
+
+                document.querySelector('#value').textContent = '$14.00/ mo';
                 break;
             case '#every2':
-                document.querySelector('#value').textContent = '17.25';
+                document.querySelector('#value').textContent = '$17.25/ mo';
                 break;
             case '#month':
-                document.querySelector('#value').textContent = '22.50';
+                document.querySelector('#value').textContent = '$22.50/ mo';
                 break;
         }
     }}
@@ -115,3 +117,31 @@ function selectSteps(idSelector, id1, id2, idStep, idStepNum, acordionsId) {
 function toggleModal() {
     [modal, fade].forEach((e)=>{e.classList.toggle('hide')})
 }
+
+function createButton() {
+
+    let div = document.querySelector('#modal-button')
+    const span = document.createElement('span')
+    const button = document.createElement('button')
+
+    if (window.screen.width < 768){
+    span.id = 'modalVal';
+    span.classList.add('title_m');
+    button.id = "close-modal"
+    button.classList.add('modal__card__button')
+    button.classList.add('button_green')
+    button.innerHTML = 'Checkout - <span id="value">_____</span>'
+    div.append(span)
+    div.append(button)
+    }else {
+        span.id = "value";
+        span.classList.add('title_m');
+        button.id = "close-modal"
+        button.classList.add('modal__card__button-desk')
+        button.classList.add('button_green')
+        button.innerHTML = 'Checkout'
+        div.append(span)
+        div.append(button)
+    }
+}
+
