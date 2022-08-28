@@ -101,8 +101,8 @@ function valueBill(idSelector){
     }}
 
 function selectSteps(idSelector, id1, id2, idStep, idStepNum, acordionsId) {
-    let id = [idSelector, id1 , id2]
-    id.map((key)=>{
+
+        [idSelector, id1 , id2].map((key)=>{
         if (idSelector === key){
             document.querySelector(idStep).style.color = 'var(--color--dark-grey-blue)'
             document.querySelector(idStepNum).style.color = 'var(--color--dark-cyan)'

@@ -3,6 +3,7 @@
 @media screen and (min-width: 1024px) {
 
     /****** DESKTOP | PLAN SECTION ******/
+
     .plan__card {
         background-image: url("../../../images/plan/desktop/image-hero-blackcup.jpg");
         background-size: cover;
@@ -52,7 +53,6 @@
 
     .steps__option{
         display: flex;
-        /*transition: 0.3s;*/
     }
 
     .steps__option__number{
